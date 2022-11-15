@@ -1,0 +1,222 @@
+body{
+    display:flex;
+}
+
+.container{
+    margin: 10px 200px;
+}
+
+.navigate{
+    display: block;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0 ;
+    
+}
+
+.navigate a {
+    text-decoration: none;
+    color: black;
+    margin: 70px;
+    text-align: right;
+    padding:10px 0;
+}
+
+.navigate a:hover{
+    color: red;
+}
+
+h1{
+    text-align: left;
+    margin:0;
+    width:100px;
+    
+    position: relative;
+    top:20px;
+    font-family: cursive;
+    font-weight: lighter;
+   
+}
+
+h2{
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+.beg{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.white{
+    margin: 10px 0;
+   
+}
+.danfo{
+    width: 100%;
+    border-radius: 10px;
+}
+.first{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.map{
+    margin:20px ;
+    width: 100%;
+}
+.hand{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.second{
+    display: flex;
+    text-align: justify;
+}
+
+.water{
+    margin:20px;
+    width: 100%;
+}
+.boat{
+    width: 100%;
+    border-radius: 20px;
+}
+.third{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+
+}
+
+span{
+    border:2px solid black ;
+    color: rgb(255, 255, 255) ;
+    cursor: pointer;
+    font-size: 15px;
+    padding:10px 10px;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 160, 40);
+    position: relative;
+    left: 100px;
+}
+
+span:hover{
+    background-color: rgb(255, 251, 251);
+    color:rgb(0, 108, 20);
+    
+}
+.thi{
+    margin: 10px 200px;
+    
+}
+
+.canoe{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fourth{
+    display: flex;
+    text-align: justify;
+}
+
+.last{
+    margin:20px;
+    width: 100%;
+}
+hr{
+    border: 2px dashed rgb(189, 187, 187);
+}
+footer{
+    background-color: rgb(255, 242, 148);
+    height: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+    }
+    .container{
+        margin:5px 20px;
+    }
+
+    .navigate{
+        text-align: center;
+    }
+
+    .navigate a{
+        margin: 10px;
+        text-align: center;
+       
+    }
+
+    h1{
+        
+    position: relative;
+    top:0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    
+    }
+
+    .first{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .map{
+        margin:0;
+    }
+
+    .second{
+        flex-direction:column-reverse;
+        width: 100%;
+    }
+
+    .water{
+        margin:0;
+    }
+
+    .third{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .thi{
+        margin:0;
+    }
+
+    .fourth{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .last{
+        margin:0 30px;
+        width: fit-content;
+    }
+    hr{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
+    span{
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+}
